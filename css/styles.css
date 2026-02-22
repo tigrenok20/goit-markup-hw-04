@@ -69,10 +69,13 @@ img {
 
 .social-icons-list {
   display: flex;
-  gap: 16px;
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
+}
+
+.footer-social .social-icons-list {
+  gap: 16px;
 }
 
 .social-icons-link {
@@ -197,7 +200,6 @@ img {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
-  background-color: rgba(46, 47, 66, 0.7);
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url("../images/people-office-hero.jpg");
@@ -293,6 +295,10 @@ img {
 /* #region our-team styles */
 .our-team {
   background-color: #f4f4fd;
+}
+
+.our-team .social-icons-list {
+  gap: 24px;
 }
 
 .our-team-title {
@@ -450,6 +456,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .social-title {
